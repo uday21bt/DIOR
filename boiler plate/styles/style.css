@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root{
+  --ff-instrument-serif:'Instrument Serif', serif;
+ --ff-monntserrat:'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 60vw;
+  height: auto;
+  background-color: black;
+}
+
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+.card{
+  
+}
+
+.title-container{
+  
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+
+  
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
