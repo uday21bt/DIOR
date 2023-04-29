@@ -18,10 +18,6 @@ As mentioned above, there are many ways to host your project for free. Our recom
 
 - [GitHub Pages](https://pages.github.com/)
 - [Netlify](https://chipper-douhua-d3615e.netlify.app/)
-
-
-
-
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
 ## Got feedback for us?
