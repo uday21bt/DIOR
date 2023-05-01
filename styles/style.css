@@ -24,6 +24,7 @@ body{
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ margin: auto;
 }
 
 
@@ -45,14 +46,12 @@ li {
 
 header{
   width: 100vw;
-  height: 15vh;
+  height: 1vh;
  font-size: 1rem;
  font-weight: 400;
  text-align: center;
 }
-.card{
- 
-}
+
 
 .title-container-one{
   background-image: url('/asset/images/cdc-dispatch22_1440_1200.jpg');
@@ -74,7 +73,8 @@ header{
   height: 80vh;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: -12rem;
+  margin: auto;
+  margin-top: -14rem;
   background-position: center;
 }
 .container-name{
@@ -100,18 +100,18 @@ header{
   color: whitesmoke;
 }
 .footer-container{
-  width: 100vh;
+  width: 80vh;
   height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid rgb(216, 204, 204);
+
   
 }
-.footer-card{
-  margin-top: -rem;
-}
+
+
 @media screen and (min-width: 576px) {
 }
 
