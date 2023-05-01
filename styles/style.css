@@ -25,6 +25,8 @@ body{
  align-items: center;
  justify-content: center;
  margin: auto;
+ 
+
 }
 
 
@@ -57,12 +59,10 @@ header{
   background-image: url('/asset/images/cdc-dispatch22_1440_1200.jpg');
   width: 100vw;
   height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-repeat: no-repeat;
   background-size: contain; 
   margin: auto;
+  margin-top: 3rem;
   background-position: center;
   
 }
@@ -70,11 +70,11 @@ header{
 .title-container-two{
   background-image: url('/asset/images/pcd-dispatch5_1440_12004.jpg');
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
-  margin-top: -13rem;
+  margin-top: -4rem;
   background-position: center;
 }
 .container-name{
@@ -93,22 +93,29 @@ header{
 .container-name-two{
   height: 70vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: var(--ff-monntserrat);
   font-weight: 400;
+  margin: auto;
   color: whitesmoke;
 }
 .footer-container{
   width: 80vh;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid rgb(216, 204, 204);
+  margin-top: -0.5rem;
+}
 
-  
+.news-letter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -128,16 +135,29 @@ header{
 
 @media (min-width: 991px) {
 
-   
-   }
 
-   .card{
+   
+  .title-container-one{
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-   }
+  }
+
+  .title-container-two{
+    
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row
+
+  }
+
+  .footer-container{
+    width: 100vw;
+    
+  }
 
 }
 
