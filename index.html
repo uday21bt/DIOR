@@ -1,90 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+  <title>Sneakers landing page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/normalize.css">
-  <title>Dior official website |DIOR</title>
   <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-  <!--HEAADER-->
   <header>
-    <h1 class="title" style="margin-top: 0.5rem;">DIOR</h1>
+    <div class="head-left">
+      <h1 class="logo">sneakers</h1>
+      <ul class="link-container">
+        <li class="link-list"><a href="#" class="link">Collections</a></li>
+        <li class="link-list"><a href="#" class="link">Men</a></li>
+        <li class="link-list"><a href="#" class="link">Women</a></li>
+        <li class="link-list"><a href="#" class="link">About</a></li>
+        <li class="link-list"><a href="#" class="link">Contact</a></li>
+      </ul>
+    </div>
+    <div class="head-right">
+      <p class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></p>
+      <div class="profile-container">
+        <img src="./asset/images/image-avatar.png" alt="profile" class="profile">
+      </div>
+    </div>
   </header>
-  <!--HEAADER-->
-
-<!--BODY-->
-  <div class="Card">
-    <div class="title-container-one">
-      <span class="container-name">FASHION & ACCESSORIES</span>
+  <!-- <hr class="divider"> -->
+  <div class="container">
+    <div class="left-container">
+      <div class="main-img-container">
+        <img src="./asset/images/image-product-1.jpg" alt="image 1" class="main-img">
+      </div>
+      <div class="view-container">
+        <div class="img-border"><img src="./asset/images/image-product-1.jpg" alt="product image" class="img-1">
+        </div>
+        <div class="img"><img src="./asset/images/image-product-2-thumbnail.jpg" alt="product image" class="image img-2"></div>
+        <div class="img"><img src="./asset/images/image-product-3.jpg" alt="product image" class="image"></div>
+        <div class="img"><img src="./asset/images/image-product-3.jpg" alt="product image" class="image"></div>
+      </div>
     </div>
-    <div class="title-container-two">
-      <span class="container-name-two">FRAGRANCE & ACCESSORIES</span>
-    </div>
-    </div>
-
-<!--BODY-->
-
-<!--FOOTER-->
-  <footer>
-    <div class="footer-full-card">
-    <div class="footer-card">
-    <div class="footer-container">
-     <span class="news-letter">
-      NEWS LETTER
-    </span>
-      <i class="fa-light fa-plus"></i>
-    </div>
+    <div class="right-container">
+      <p class="title-1">SNEAKER COMPANY</p>
+      <h1 class="title-2">Fall Limited Edition Sneakers</h1>
+      <p class="description">There low-profile sneakers are your perfect casual wear companion. Featuring a durable
+        outer sole, they'll withstand everything the weather can offer.</p>
+      <p class="price">$125.00 <span class="discount">50%</span></p>
+      <div class="price-strike"><strike>$250.00</strike></div>
+      <div class="cart-container">
+        <p class="count"><span class="orange-txt">-</span>0<span class="orange-txt">+</span></p>
+        <button class="btn-cart"><i class="fa-solid fa-cart-shopping"></i> &nbsp; Add to cart</button>
+      </div>
     </div>
 
-    <div class="footer-container">
-      <span class="news-letter">
-       OUR BOUTIQUES
-     </span>
-    <i class="fa-light fa-plus"></i>
-     </div>
-     
-
-     <div class="footer-container">
-      <span class="news-letter">
-       CLIENT SERVICE
-     </span>
-       
-       <i class="fa-light fa-plus"></i>
-     </div>
-     
-
-     <div class="footer-container">
-      <span class="news-letter">
-       THE HOUSE OF DIOR
-     </span>
-       
-       <i class="fa-light fa-plus"></i>
-     </div>
-     
-
-     <div class="footer-container">
-      <span class="news-letter">
-       COUNTRY / REGION
-     </span>
-       
-       <i class="fa-light fa-plus"></i>
-     </div>
-    </div>
   </div>
-     
-  </footer>
-
-
-<!--FOOTER-->
-
-
-
+  <script src="./javascript/script.js"></script>
 </body>
 </html>
